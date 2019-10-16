@@ -1,0 +1,13 @@
+{
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Microsoft/tolerant-php-parser.git"
+        }
+    ],
+    "require": {
+        "Microsoft/tolerant-php-parser": "master",
+        "myclabs/php-enum": "dev-master"
+    }
+}
