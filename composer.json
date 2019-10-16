@@ -8,6 +8,6 @@
     ],
     "require": {
         "Microsoft/tolerant-php-parser": "master",
-        "myclabs/php-enum": "dev-master#e1cc10aa3d5fce77ec36ab4d811f6944ba66cebe"
+        "myclabs/php-enum": "^1.6"
     }
 }

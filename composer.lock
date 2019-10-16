@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec4a39f9d72d53d9da9ef86713f20d09",
+    "content-hash": "4b6c122bcb9f9c6e85fbd34c0afa2365",
     "packages": [
         {
             "name": "microsoft/tolerant-php-parser",
@@ -42,21 +42,21 @@
         },
         {
             "name": "myclabs/php-enum",
-            "version": "dev-master",
+            "version": "1.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/php-enum.git",
-                "reference": "e1cc10aa3d5fce77ec36ab4d811f6944ba66cebe"
+                "reference": "32c4202886c51fbe5cc3a7c34ec5c9a4a790345e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/e1cc10aa3d5fce77ec36ab4d811f6944ba66cebe",
-                "reference": "e1cc10aa3d5fce77ec36ab4d811f6944ba66cebe",
+                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/32c4202886c51fbe5cc3a7c34ec5c9a4a790345e",
+                "reference": "32c4202886c51fbe5cc3a7c34ec5c9a4a790345e",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=7.1"
+                "php": ">=5.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
@@ -83,15 +83,13 @@
             "keywords": [
                 "enum"
             ],
-            "time": "2019-04-23T10:55:31+00:00"
+            "time": "2019-02-04T21:18:49+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "myclabs/php-enum": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
