@@ -88,7 +88,11 @@ if (count($argv) > 2 && $argv[2] == 'MAPPING') {
     exit(0);
 }
 
-$file = file_get_contents($argv[1]);
+$inputFileName = $argv[1];
+if ($inputFileName === "/dev/stdin") {
+    $inputFileName = "php://stdin";
+}
+$file = file_get_contents($inputFileName);
 $lookup = new FilePositionMap($file);
 $parser = new Parser(); # instantiates a new parser instance
 $astNode = $parser->parseSourceFile($file); # returns an AST from string contents
